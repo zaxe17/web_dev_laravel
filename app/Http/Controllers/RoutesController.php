@@ -7,6 +7,14 @@ use Illuminate\Http\Request;
 
 class RoutesController extends Controller
 {
+    public function employee() {
+        return "<h1>Employee</h1>";
+    }
+
+    public function admin() {
+        return "<h1>Employee</h1>";
+    }
+    
     public function responsive() {
         return view('sample.respon');
     }
@@ -15,13 +23,12 @@ class RoutesController extends Controller
         return view('dashboard');
     }
     
-    public function user($id = null) {
-        if($id) {
-            return "<a href='" . route('editUser', $id) . "'>Edit</a>";
-        }
-        else {
-            return view('user');
-        }
+    public function user() {
+        return view('user');
+    }
+
+    public function userid($id = null) {
+        return "<a href='" . route('editUser', $id) . "'>Edit</a>";
     }
 
     public function home($name) {

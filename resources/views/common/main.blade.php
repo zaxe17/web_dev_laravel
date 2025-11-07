@@ -102,15 +102,18 @@
             animation: footer-up 1s ease-in forwards;
             animation-delay: 0.5s;
             transform: translateY(120px);
+            opacity: 0;
         }
         
         @keyframes footer-up {
             0% {
                 transform: translateY(120px);
+                opacity: 0;
             }
             
             100% {
                 transform: translateY(0);
+                opacity: 1;
             }
         }
         

@@ -1,4 +1,4 @@
-<section class="position-sticky align-self-start text-center pt-3 bottom-0 w-100 footer-shadow footer-animation" style="background-color: #e9ecef;">
+<section class="position-sticky align-self-start text-center py-3 bottom-0 w-100 footer-shadow footer-animation" style="background-color: #e9ecef;">
     <div class="container">
         <div class="row text-center d-flex justify-content-center">
             <div class="col-md-2 col-4 hover-links">
